@@ -79,7 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.service.ts" />
     <TypeScriptCompile Include="app\app.viewcomponent.ts" />
+    <TypeScriptCompile Include="app\app.service.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
